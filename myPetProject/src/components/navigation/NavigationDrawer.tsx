@@ -16,10 +16,12 @@ const Drawer = createDrawerNavigator();
 function CustomDrawerContent(props) {
   const [currentCategory, setCurrentCategory] = useState({ id: null });
 
+
   const setCategory = (categoryId) => {
     const category = categories.find((category) => category.id === categoryId);
     setCurrentCategory(category);
   };
+
 
   const renderCategories = () => {
     const filteredCategories = categories.filter(
@@ -33,6 +35,13 @@ function CustomDrawerContent(props) {
       />
     ));
   };
+
+
+
+
+
+
+
 
   return (
     <DrawerContentScrollView {...props}>
