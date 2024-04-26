@@ -12,7 +12,7 @@ import { categories } from '../../card/listCategory';
 import { IconButton } from 'react-native-paper';
 import { DrawerActions, useNavigation } from '@react-navigation/native';
 const Drawer = createDrawerNavigator();
-
+   
 function CustomDrawerContent(props) {
   const [currentCategory, setCurrentCategory] = useState({ id: null });
 
