@@ -5,3 +5,25 @@
 Также была реализована страница "Избранное", где использовался Redux Toolkit и страница "Поиск" по карточкам.
 
 Примеры работ: 
+<details>
+  <summary> Главное меню</summary>
+  <img src="myPetProject/assets/Home.png">
+</details>
+   
+
+<details>
+  <summary> Категории </summary>
+  <img src="myPetProject/assets/Category.png">
+</details>
+
+
+<details>
+  <summary> Избранное</summary>
+  <img src="myPetProject/assets/Favorite.png" >
+</details>
+   
+
+<details>
+  <summary> Поиск </summary>
+  <img src="myPetProject/assets/Search.png" >
+</details>
